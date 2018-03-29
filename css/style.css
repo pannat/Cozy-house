@@ -1,13 +1,9 @@
 body {
-	min-width: 1170px;
+	min-width: 1190px;
 	margin:0;
 	padding: 0;
 
 	font-family: Georgia, serif;
-	color: #ffffff;
-
-	background: #000000;
-
 }
 
 .container {
@@ -40,6 +36,9 @@ body {
 	padding-top: 50px;
 	padding-bottom: 270px;
 
+	color: #ffffff;
+	
+	background-color: #000000;
 	background-image: url("../img/main-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -147,4 +146,45 @@ body {
 	line-height: 24px;
 	letter-spacing: -0.015em;
 	color: #cdcdcd;
+}
+
+.about-us {
+	color: #545454;
+
+	background: #fafafa;
+}
+
+.about-us__inner {
+	padding-top: 110px;
+	padding-bottom: 110px;
+	padding-left: 585px;
+
+	background-image: url("../img/about-us-pets.png");
+	background-repeat: no-repeat;
+	background-position: 170px 90px;
+}
+
+.about-us__title {
+	width: 315px;
+	margin: 0;
+	margin-bottom: 30px;
+
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: normal;
+	letter-spacing: 0.06em;
+}
+
+.about-us__text {
+	width: 430px;
+	margin: 0;
+	margin-bottom: 25px;
+
+	font-family: Arial, serif;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.about-us__text:last-child {
+	margin-bottom: 0;
 }
