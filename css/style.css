@@ -188,3 +188,7 @@ body {
 .about-us__text:last-child {
 	margin-bottom: 0;
 }
+
+.our-pets {
+	background: #f6f6f6;
+}
