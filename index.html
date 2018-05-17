@@ -10,10 +10,10 @@
       <div class="container">
         <div class="main-header__inner">
           <div class="main-header__top">
-            <div class="main-logo">
-              <a class="main-logo__link">
-                <h1 class="main-logo__heading">Cozy House                </h1>
-                <p class="main-logo__description">Shelter for pets in Boston</p>
+            <div class="logo">
+              <a class="logo__link">
+                <h1 class="logo__title">Cozy House                </h1>
+                <p class="logo__description">Shelter for pets in Boston</p>
               </a>
             </div>
             <ul class="main-nav">
@@ -45,7 +45,7 @@
     <div class="about-us">
       <div class="container">
         <div class="about-us__inner">
-          <h2 class="about-us__title">About the shelter “Cozy House”</h2>
+          <h2 class="about-us__title">About the shelter &#8220;Cozy House&#8221;</h2>
           <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.</p>
           <p class="about-us__text">Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo nec leo. Praesent mattis nibh quis
 ultrices pharetra. Morbi tempus at ante sit amet tristique.
@@ -58,40 +58,188 @@ lorem. Sed at ligula et sem mattis gravida ac vel erat.</p>
     <div class="our-pets">
       <div class="container">
         <div class="our-pets__inner">
-          <h2 class="our-pets__title">Our friends who are looking for a house</h2>
-          <div class="our-pets__slider">
-            <input class="our-pets__input our-pets__input-next visually-hidden" type="radio" id="next" name="our-pets__toggle">
-            <input class="our-pets__input our-pets__input-back visually-hidden" type="radio" id="back" name="our-pets__toggle">
-            <div class="our-pets__slider-controls">
-              <label for="next">Вперед</label>
-              <label for="back">Назад</label>
+          <h2 class="our-pets__title">Our friends who <br> are looking for a house</h2>
+          <div class="our-pets__slider js-slider">
+            <div class="our-pets__frame js-frame">
+              <ul class="our-pets__slides js-slides">
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img src="img/Katrine.png" alt="Katrine" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Katrine</h3>
+                  <a class="our-pets__link button" href="#">Learn more</a>
+                </li>
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img src="img/Jennifer.png" alt="Jennifer" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Jennifer</h3>
+                  <a class="our-pets__link js-jennifer button" href="#">Learn more</a>
+                </li>
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img class="our-pets__img" src="img/Woody.png" alt="Woody" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Woody</h3>
+                  <a class="our-pets__link button" href="#">Learn more</a>
+                </li>
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img src="img/Timmy.png" alt="Timmy" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Timmy</h3>
+                  <a class="our-pets__link button" href="#">Learn more</a>
+                </li>
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img class="our-pets__img" src="img/Scarlett.png" alt="Scarlett" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Scarlett</h3>
+                  <a class="our-pets__link button" href="#">Learn more</a>
+                </li>
+                <li class="our-pets__slide js-slide">
+                  <p class="our-pets__img">
+                    <img src="img/Freddie.png" alt="Freddie" width="270" height="270">
+                  </p>
+                  <h3 class="our-pets__name">Freddie</h3>
+                  <a class="our-pets__link button" href="#">Learn more</a>
+                </li>
+              </ul>
             </div>
-            <div class="our-pets__slides">
-              <div class="our-pets__slide">
-                <img src="img/Katrine.png" width="270" height="270">
-                <h3 class="our-pets__name">Katrine</h3>
-                <a class="our-pets__name-about button" href="#">Learn more</a>
-              </div>
-              <div class="our-pets__slide">
-                <img src="img/Jennifer.png" width="270" height="270">
-                <h3 class="our-pets__name">Jennifer</h3>
-                <a class="our-pets__name-about button" href="#">Learn more</a>
-              </div>
-              <div class="our-pets__slide">
-                <img src="img/Woody.png" width="270" height="270">
-                <h3 class="our-pets__name">Woody</h3>
-                <a class="our-pets__name-about button" href="#">Learn more</a>
-              </div>
-              <div class="our-pets__slide">
-                <img src="img/Freddie.png" width="270" height="270">
-                <h3 class="our-pets__name">Freddie</h3>
-                <a class="our-pets__name-about button" href="#">Learn more</a>
-              </div>
-            </div>
+            <button class="our-pets__toggle our-pets__toggle-left js-prev" type="button">
+              <span class="visually-hidden">Назад</span>
+            </button>
+            <button class="our-pets__toggle our-pets__toggle-right js-next" type="button">
+              <span class="visually-hidden">Вперед</span>
+            </button>
+          </div>
+          <div class="our-pets__bottom">
+            <a class="button our-pets__link-all" href="pets.html">Get to know the rest</a>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="help">
+      <div class="container">
+        <div class="help__inner">
+          <h2 class="help__title">Than you can help our shelter</h2>
+          <div class="help__list help__list-top">
+            <div class="help__item help__item-food">Pet food</div>
+            <div class="help__item help__item-transport">Transportation</div>
+            <div class="help__item help__item-toys">Toys</div>
+            <div class="help__item help__item-bowl">Bowls and cups</div>
+            <div  class="help__item help__item-shampoo">Shampoos</div>
+          </div>
+          <div class="help__list help__list-bottom">
+            <div class="help__item help__item-vitamin">Vitamins</div>
+            <div class="help__item help__item-syringe">Medicines</div >
+            <div class="help__item help__item-leash">Collars / leashes</div>
+            <div class="help__item help__item-sleep">Sleaping area</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="donation">
+      <div class="container">
+        <div class="donation__inner">
+          <h2 class="donation__title">In addition, you<br> can make a donation</h2>
+          <table class="donation__table">
+            <tr>
+              <td class="donation__info donation__info-bank">Name of the bank / Type of bank account</td>
+            </tr>
+            <tr>
+              <td class="donation__info donation__info-card">8380 2880 8028 8791 7435</td>
+            </tr>
+          </table>
+          <p class="donation__text">
+            Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed
+ac diam. Praesent ultrices maximus tortor et vulputate. Interdum
+et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__contacts">
+            <h2 class="footer__title">For questions and suggestions</h2>
+            <a class="footer__link footer__link-email" href="malto:email@shelter.com">email@shelter.com</a>
+            <a class="footer__link footer__link-tel" href="tel:+13 674 567 75 54">+13 674 567 75 54</a>
+          </div>
+          <div class="footer__contacts">
+            <h2 class="footer__title">We are waiting for your visit</h2>
+            <p class="footer__adress footer__adress-top">Boston, Central Street, 1st
+(Entrance from the store)</p>
+            <p class="footer__adress footer__adress-bottom">London, South Park, 18st</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-jennifer">
+      <div class="modal__wrapper">
+        <p class="pet__photo">
+          <img src="img/m-jennifer.png" width="470" height="470" alt="Photo Jennifer">
+        </p>
+        <div class="pet__card">
+          <h2 class="pet__name">Jennifer</h2>
+          <p class="pet__breed">Pooch + Labrador</p>
+          <p class="pet__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Fusce efficitur blandit condimentum.
+            Proin accumsan lorem vel gra vida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.
+            Donec consectetur, diam in porta tempus, urna ligula ves tibulum nibh.</p>
+          <p class="pet__info">
+            <b class="pet__info-title">Age:</b> 2 months
+          </p>
+          <p class="pet__info">
+            <b class="pet__info-title">Inoculations:</b> none
+          </p>
+          <p class="pet__info">
+            <b class="pet__info-title">Disiases:</b> none
+          </p>
+          <p class="pet__info">
+            <b class="pet__info-title">Parasites:</b> none
+          </p>
+        </div>
+        <button class="modal-close" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="modal pet">
+      <p class="pet__photo">
+        <img class="pet__photo" src="img/m-charly.jpg" width="470" height="470">
+      </p>
+      <div class="pet__card">
+        <h2 class="pet__name">Charly</h2>
+        <p class="pet__breed">Pooch</p>
+        <p class="pet__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce efficitur blandit condimentum.
+          Proin accumsan lorem vel gra vida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.
+          Donec consectetur, diam in porta tempus, urna ligula ves tibulum nibh.</p>
+        <p class="pet__info">
+          <b class="pet__info-title">Age:</b> 4 months
+        </p>
+        <p class="pet__info">
+          <b class="pet__info-title">Inoculations:</b> none
+        </p>
+        <p class="pet__info">
+          <b class="pet__info-title">Disiases:</b> none
+        </p>
+        <p class="pet__info">
+          <b class="pet__info-title">Parasites:</b> none
+        </p>
+      </div>
+      <button class="modal-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </div> -->
+
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
-
