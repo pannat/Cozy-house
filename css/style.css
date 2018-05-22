@@ -235,6 +235,7 @@ input[type="radio"].visually-hidden {
 
 .catalog__inner {
   padding-top: 60px;
+  padding-bottom: 65px;
 }
 
 .our-pets__title,
@@ -284,6 +285,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 62px;
   padding: 0;
   list-style: none;
 }
@@ -312,6 +314,10 @@ input[type="radio"].visually-hidden {
 
 .catalog__item:nth-child(4n) {
   margin-right: 0;
+}
+
+.catalog__item:nth-child(n+4) {
+  margin-bottom: 0;
 }
 
 .our-pets__img,
@@ -606,6 +612,65 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   font-style: italic;
   color: #b2b2b2;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  width: 280px;
+  vertical-align: top;
+  list-style: none;
+}
+
+.pagination__item {
+  margin-right: 17px;
+}
+
+.pagination__item:nth-child(3),
+.pagination__item:last-child {
+  margin: 0;
+}
+
+.pagination__link {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 46px;
+  height: 46px;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 57px;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border-radius: 50%;
+  border: 2px solid #f1cdb3;
+}
+
+.pagination__link-current,
+.pagination__link:hover,
+.pagination__link:focus,
+.pagination__link:active {
+  background-color: #f1cdb3;
+}
+
+.pagination__more {
+  width: 45px;
+  background-image: url("../img/bullets.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .footer {
